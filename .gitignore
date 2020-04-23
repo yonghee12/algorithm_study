@@ -200,3 +200,14 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/python,pycharm
+/.idea/cote.iml
+/leetcode-2020-april/.idea/leetcode-2020-april.iml
+/.idea/misc.xml
+/leetcode-2020-april/.idea/misc.xml
+/.idea/modules.xml
+/leetcode-2020-april/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/leetcode-2020-april/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/leetcode-2020-april/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
