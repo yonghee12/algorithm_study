@@ -1,4 +1,5 @@
 # https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/
+# TODO: 다시보기
 
 def rotate(nums: list, k: int):
     nums.reverse()
