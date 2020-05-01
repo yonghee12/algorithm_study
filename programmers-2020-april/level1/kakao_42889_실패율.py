@@ -1,4 +1,8 @@
 # https://programmers.co.kr/learn/courses/30/lessons/42889
+'''
+정답률 55.75%
+'''
+
 from collections import Counter
 from operator import itemgetter
 
