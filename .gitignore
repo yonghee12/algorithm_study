@@ -1,3 +1,8 @@
+# private
+private/*
+[실패]*
+.gitignore
+
 # files
 *.numbers
 *.csv
@@ -201,14 +206,14 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python,pycharm
 /.idea/cote.iml
-/leetcode-2020-april/.idea/leetcode-2020-april.iml
+/03_leetcode/.idea/leetcode-2020-april.iml
 /.idea/misc.xml
-/leetcode-2020-april/.idea/misc.xml
+/03_leetcode/.idea/misc.xml
 /.idea/modules.xml
-/leetcode-2020-april/.idea/modules.xml
+/03_leetcode/.idea/modules.xml
 /.idea/inspectionProfiles/profiles_settings.xml
-/leetcode-2020-april/.idea/inspectionProfiles/profiles_settings.xml
+/03_leetcode/.idea/inspectionProfiles/profiles_settings.xml
 /.idea/inspectionProfiles/Project_Default.xml
-/leetcode-2020-april/.idea/inspectionProfiles/Project_Default.xml
+/03_leetcode/.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
 /.idea/rSettings.xml
