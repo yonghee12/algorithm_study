@@ -15,8 +15,7 @@ set과 counter가 존재해서 쉬웠지만 다른 언어를 잡았다면 시간
 
 
 from collections import Counter
-from string import ascii_lowercase as lo, ascii_uppercase as up
-alphabets = lo + up
+from string import ascii_letters as alphabets
 
 def bigram(text):
     return [text[i:i+2].lower() for i in range(len(text)-1)
