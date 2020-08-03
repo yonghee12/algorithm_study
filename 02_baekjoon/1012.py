@@ -1,12 +1,9 @@
 # https://www.acmicpc.net/problem/1012
-
 import sys
-sys.setrecursionlimit(1500)
-sys.stdin = open('input.in', 'r')
+
+sys.setrecursionlimit(1000000)
 
 
-import sys
-sys.setrecursionlimit(10000)
 class Cabbage:
     def __init__(self):
         self.vec = [(0, 1), (1, 0), (0, -1), (-1, 0)]
@@ -28,10 +25,10 @@ class Cabbage:
 
     def dfs(self, y, x):
         self.check[y][x] = 1
-        for i in range(4):
-            yy, xx = y + self.vec[i][0], x + self.vec[i][1]
-            if self.board[yy][xx] and not self.check[yy][xx]:
-                self.dfs(yy, xx)
+        for dvec in self.vec:
+            ny, nx = y + dvec[0], x + dvec[1]
+            if self.board[ny][nx] and not self.check[ny][nx]:
+                self.dfs(ny, nx)
 
 
 n_tests = int(input())
