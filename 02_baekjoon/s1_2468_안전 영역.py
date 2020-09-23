@@ -1,4 +1,7 @@
 # https://www.acmicpc.net/problem/2468
+# 17분 소요
+# flood fill 문제 다시.
+
 from itertools import product
 import sys
 
